@@ -5,7 +5,6 @@ tags: [fantasy football, random forests, jags]
 header:
   image: "/images/banner_logo_v4.png"
 excerpt: "A Random Forest and Bayesian hierarchical Poisson Model approach for predicting EPL Fantasy Football points."
-classes: wide
 ---
 
 
