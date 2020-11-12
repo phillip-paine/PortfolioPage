@@ -34,9 +34,8 @@ gameweek matches. In the EPL Fantasy Football players select not just a
 starting 11 but also 4 substitutes, in this work we ignore substitutions
 and concentrate on the starting team only.
 
-<img src="https://raw.githubusercontent.com/phillip-paine/FantasyFootball1920/main/FF_example_team.png?token=AM5Q3R7MKK2GWFSSEAGN3O27VTQ4C" />
+<img src="images/FF1920_images/FF_example_team.png" style="display: block; margin: auto;" alt="Figure 1: Screenshot from the Fantasy Football website showing an example team selection." width="45%" />
 
-style="display: block; margin: auto;" alt="Figure 1: Screenshot from the Fantasy Football website showing an example team selection." width="45%"
 
 In Figure 1 an example fantasy football team is shown. The table shows
 the data at the end of the first three rounds for just three players,
