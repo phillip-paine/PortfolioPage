@@ -34,7 +34,9 @@ gameweek matches. In the EPL Fantasy Football players select not just a
 starting 11 but also 4 substitutes, in this work we ignore substitutions
 and concentrate on the starting team only.
 
-<img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/FF_example_team.png?raw=true" style="display: block; margin: auto;" alt="Figure 1: Screenshot from the Fantasy Football website showing an example team selection." width="45%" />
+<img src="https://https://raw.githubusercontent.com/phillip-paine/FantasyFootball1920/main/FF_example_team.png?token=AM5Q3R7MKK2GWFSSEAGN3O27VTQ4C" />
+
+style="display: block; margin: auto;" alt="Figure 1: Screenshot from the Fantasy Football website showing an example team selection." width="45%"
 
 In Figure 1 an example fantasy football team is shown. The table shows
 the data at the end of the first three rounds for just three players,
@@ -46,7 +48,7 @@ and fantasy football statistics e.g. fantasy points, ‘creativity’,
 ‘influence’ etc. In addition, we also have the match results themselves
 and future fixture information.
 
-<img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/PlayersMatchData_preview.jpeg?raw=true"/>
+<img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/PlayersMatchData_preview.jpeg?raw=true" />
 
 Figure 2 previews a selection of columns for a handful of players in the
 match data.
