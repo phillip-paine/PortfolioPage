@@ -37,15 +37,16 @@ body {
 
 .page {
   @include breakpoint($large) {
-    float: right;
+    /*float: right;*/
     /*width: calc(100% - #{$right-sidebar-width-narrow});*/
-    width: calc(100%);
-    padding-right: $right-sidebar-width-narrow;
+    width: calc(90%);
+    /*padding-right: $right-sidebar-width-narrow;*/
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width;
+    /*width: calc(100% - #{$right-sidebar-width});
+    padding-right: $right-sidebar-width;*/
+    width: calc(90%);
   }
 
   .page__inner-wrap {
