@@ -34,11 +34,7 @@ gameweek matches. In the EPL Fantasy Football players select not just a
 starting 11 but also 4 substitutes, in this work we ignore substitutions
 and concentrate on the starting team only.
 
-<img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/FF_example_team.png?raw=true" alt="Figure 1: Screenshot from the Fantasy Football website showing an example team selection." width="45%" />
-<p class="caption">
-Figure 1: Screenshot from the Fantasy Football website showing an
-example team selection.
-</p>
+<img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/FF_example_team.png?raw=true" style="display: block; margin: auto;" alt="Figure 1: Screenshot from the Fantasy Football website showing an example team selection." width="45%" />
 
 In Figure 1 an example fantasy football team is shown. The table shows
 the data at the end of the first three rounds for just three players,
@@ -51,9 +47,6 @@ and fantasy football statistics e.g. fantasy points, ‘creativity’,
 and future fixture information.
 
 <img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/PlayersMatchData_preview.jpeg?raw=true" alt="Figure 2: Example rows and columns from the Players-Match dataset" width="100%" />
-<p class="caption">
-Figure 2: Example rows and columns from the Players-Match dataset
-</p>
 
 Figure 2 previews a selection of columns for a handful of players in the
 match data.
@@ -99,10 +92,6 @@ players and some have overvalued players. This is likely a consequence
 of under/over-rating certain teams and of popular footballers.
 
 <img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/Top_Player_AvgCost_TotalPoints.png?raw=true" alt="Figure 4: Average cost during the season against total points scored during the season, with select players highlighted." width="70%" />
-<p class="caption">
-Figure 4: Average cost during the season against total points scored
-during the season, with select players highlighted.
-</p>
 
 In Figure 4 we look at the average cost per point of individual
 footballers and highlight the best-performing players in each position.
@@ -113,9 +102,6 @@ scored. For example, if we look along the y-axis at 125 points scored
 there is a large variation of prices for midfielders and forwards.
 
 <img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/PlayesMatchData_CorrelationPlot.png?raw=true" alt="Figure 5: Spearman correlation plot." width="80%" />
-<p class="caption">
-Figure 5: Spearman correlation plot.
-</p>
 
 In Figure 5 the Spearman correlation plot shows the correlation between
 the match statistic data and the weekly points (‘total points’), this
@@ -276,11 +262,6 @@ randomly permute the values in that variable we should find a decrease
 in predictive accuracy.
 
 <img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/gw14_IncNodePurityVarImportance.png?raw=true" alt="Variable importance plots from the random forest models fitted to the game week 14 data (i.e. all fixtures completed up to that round), showing the Gini impurity (left) and the random permutation MSE (right). " width="49%" height="20%" /><img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/gw14_PercentIncMSEVarImportance.png?raw=true" alt="Variable importance plots from the random forest models fitted to the game week 14 data (i.e. all fixtures completed up to that round), showing the Gini impurity (left) and the random permutation MSE (right). " width="49%" height="20%" />
-<p class="caption">
-Variable importance plots from the random forest models fitted to the
-game week 14 data (i.e. all fixtures completed up to that round),
-showing the Gini impurity (left) and the random permutation MSE (right).
-</p>
 
 The variable plots in this case agree with each other to a large extent.
 The most important variables are form and value, which is to be
@@ -306,10 +287,6 @@ The weekly predicted points scored and actual points scored is
 illustrated in the plot below for a selection of players.
 
 <img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/David_deGea_TotalPoints.png?raw=true" alt="Figure 6: Weekly points scored by David de Gea (left) and Oliver Norwood (right) with the predicted points from both methods." width="49%" height="20%" /><img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/Oliver_Norwood_TotalPoints.png?raw=true" alt="Figure 6: Weekly points scored by David de Gea (left) and Oliver Norwood (right) with the predicted points from both methods." width="49%" height="20%" />
-<p class="caption">
-Figure 6: Weekly points scored by David de Gea (left) and Oliver Norwood
-(right) with the predicted points from both methods.
-</p>
 
 In Figure 6 we can see that the predicted points match up very well with
 the actual points scored by both players, more so in the case of the
@@ -323,10 +300,6 @@ points scored and the actual points scored for both methods is
 calculated.
 
 <img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/ResidualSS_plot.png?raw=true" alt="Figure 7: Residual sum of squares between actual points scored and the points predicted by both methods" width="80%" />
-<p class="caption">
-Figure 7: Residual sum of squares between actual points scored and the
-points predicted by both methods
-</p>
 
 In Figure 7 We see that consistently the random forest-JAGS method
 outperforms the naive recent form model using this measure. In fact, in
@@ -335,11 +308,6 @@ forest-JAGS model has a lower sum of squares error to the actual points
 scored.
 
 <img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/WeeklyPointsAfterTransfers.png?raw=true" alt="Figure 8: Plots showing for both methods the weekly points scored (left) and the cumulative points scored (right) by the team selected by finding the best transfer each week." width="49%" height="20%" /><img src="https://github.com/phillip-paine/FantasyFootball1920/blob/main/WeeklyPointsAfterTransfers_cumulative.png?raw=true" alt="Figure 8: Plots showing for both methods the weekly points scored (left) and the cumulative points scored (right) by the team selected by finding the best transfer each week." width="49%" height="20%" />
-<p class="caption">
-Figure 8: Plots showing for both methods the weekly points scored (left)
-and the cumulative points scored (right) by the team selected by finding
-the best transfer each week.
-</p>
 
 The weekly points scored and cumulative points scored given in Figure 8
 assume a starting team of Tim Krul (GK), Virgil van Dijk, César
